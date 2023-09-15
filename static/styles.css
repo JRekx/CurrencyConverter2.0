@@ -1,0 +1,103 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background color using the specified color palette */
+body {
+    background-color: #CD6688;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Align elements vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the title box */
+.title-box {
+    background-color: #ff6b6b;
+    border-radius: 15px;
+    padding: 10px;
+    width: 60%; /* Shrink the width of the title box */
+    box-shadow: 0px 0px 10px 0px black;
+    margin-bottom: 10px; /* Reduce the margin between the title and form boxes */
+    margin-top: -20px; /* Raise the title box */
+}
+
+h1 {
+    color: white;
+    margin: 0; /* Remove default margin */
+}
+
+/* Style the form box */
+.form-box {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 50%; /* Format the form box to be half the width of the title box */
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Style text inputs, number input, and button */
+input[type="text"],
+input[type="number"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style the Convert button */
+button {
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: black;
+}
+
+/* Style the error message box */
+.error-box {
+    background-color: #ff6b6b;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 80%;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.error-box p {
+    font-size: 18px;
+    margin: 0;
+    color: white;
+}
+
+/* Style the result box with a more appealing color */
+.result-box {
+    background-color: #6DB84E; /* Change to your preferred color */
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 80%;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.result-box p {
+    font-size: 18px;
+    margin: 0;
+    color: white;
+}
